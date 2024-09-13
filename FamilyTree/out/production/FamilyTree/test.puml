@@ -1,0 +1,25 @@
+@startuml
+object "Marek Kowalski" as Marek_Kowalski
+object "Ewa Kowalska" as Ewa_Kowalska
+object "Anna Dąbrowska" as Anna_Dąbrowska
+Anna_Dąbrowska --> Ewa_Kowalska
+Anna_Dąbrowska --> Marek_Kowalski
+object "Andrzej Kowalski" as Andrzej_Kowalski
+Andrzej_Kowalski --> Ewa_Kowalska
+Andrzej_Kowalski --> Marek_Kowalski
+object "Krystyna Dąbrowska" as Krystyna_Dąbrowska
+Krystyna_Dąbrowska --> Ewa_Kowalska
+Krystyna_Dąbrowska --> Marek_Kowalski
+object "Alicja Wiśniewska" as Alicja_Wiśniewska
+Alicja_Wiśniewska --> Anna_Dąbrowska
+object "Tomasz Dąbrowski" as Tomasz_Dąbrowski
+Tomasz_Dąbrowski --> Anna_Dąbrowska
+object "Joanna Nowak" as Joanna_Nowak
+Joanna_Nowak --> Andrzej_Kowalski
+object "Kacper Kowalski" as Kacper_Kowalski
+Kacper_Kowalski --> Andrzej_Kowalski
+object "Elżbieta Kowalska" as Elżbieta_Kowalska
+Elżbieta_Kowalska --> Kacper_Kowalski
+object "Jan Kowalski" as Jan_Kowalski
+Jan_Kowalski --> Kacper_Kowalski
+@enduml
